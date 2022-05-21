@@ -1,11 +1,12 @@
 import React from 'react'
 
-import Card from '../Card/Card'
+import HomeCard from '../Card/HomeCard'
+import './Pages.css'
 
 
 const Home = props => (
     <div className="Home">
-        <Card></Card>
+        <HomeCard></HomeCard>
     </div>
 )
 

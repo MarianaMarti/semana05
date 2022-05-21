@@ -9,13 +9,13 @@ const Navbar = props => (
         <nav>
             <ul>
                 <li>
-                    <a href="/home">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
                     <a href="/about" id="about">Sobre Nós</a>
                 </li>
                 <li>
-                    <a href="/">Logins</a>
+                    <a href="/login">Logins</a>
                 </li>
             </ul>
         </nav>

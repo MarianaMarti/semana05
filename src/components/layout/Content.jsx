@@ -9,8 +9,8 @@ const Content = props => (
     <div className="Content">
         <Routes>
             <Route path="/about" element={<About />}></Route>
-            <Route path="/Home" element={<Home />}></Route>
-            <Route path="/" exact element={<Login />}></Route>
+            <Route path="/" exact element={<Home />}></Route>
+            <Route path="/login" element={<Login />}></Route>
         </Routes>
     </div>
 )

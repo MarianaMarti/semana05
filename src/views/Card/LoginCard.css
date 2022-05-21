@@ -7,9 +7,16 @@
     max-height: 100vh;
 }
 .Card{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(19, 19, 19);
+    color: rgb(173, 173, 173);
+    border-radius: 10px;
     width: 600px;
     padding-bottom: 5px;
     margin: auto;
+    margin-top: 80px;
 }
 
 #container {
